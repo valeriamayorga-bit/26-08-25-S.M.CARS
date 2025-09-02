@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=DM+Serif+Display:ital@0;1&display=swap');
+
 :root {
     --branco: #e7ecefff;
     --azul: #274c77ff;
     --azul-claro: #6096baff;
     --azul-bebe: #a3cef1ff;
     --cinza: #8b8c89ff;
+    --preto: #000000;
+    --texto:"DM Serif Display", serif;
+    --titulo: "Changa One", sans-serif;
 }
 
 body{
     background-color: var(--azul-claro);
+    font-family: var(--texto);
 }
