@@ -3,7 +3,7 @@
 :root {
     --branco: #e7ecefff;
     --azul: #274c77ff;
-    --azul-claro: #6096baff;
+    --azul-claro: rgb(65, 116, 150);
     --azul-bebe: #a3cef1ff;
     --cinza: #8b8c89ff;
     --preto: #000000;
@@ -14,4 +14,36 @@
 body{
     background-color: var(--azul-claro);
     font-family: var(--texto);
+    margin:0;
+}
+
+header{
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.img-logo{
+  width: 15%;
+  border-radius: 60%;
+}
+.menu{
+    display:flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.menu a:hover{
+    color: var(--preto);
+    transition: 0.5s;
 }
