@@ -47,3 +47,25 @@ header{
     color: var(--preto);
     transition: 0.5s;
 }
+
+.capa{
+   width: 100%;
+   height: auto;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+
+.capa img{
+    width: 100%;
+    height: auto;
+    display:block;
+    object-fit: cover;
+}
+
+.apresentacao{
+    font-family: var(--titulo);
+    text-align: center;
+    margin: 40px 0;
+}
