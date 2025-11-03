@@ -155,3 +155,33 @@ footer{
     width: 100%;
     border-radius: 10px;
 }
+
+.produto h3{
+    font-family: var(--titulo);
+    color: var(--preto);
+    font-size: 24px;
+}
+
+.produto p{
+    font-family: var(--texto);
+    color: var(--preto);
+    font-size: 18px;
+    font-style: italic;
+}
+
+.produto button{
+    padding: 10px 24px;
+    font-size: 16px;
+    font-family: var(--texto);
+    background-color: var(--azul);
+    color: var(--preto);
+    border: none;
+    border-radius: 12px;
+}
+
+.produto button:hover{
+    background-color: var(--azul-claro);
+    transition: 0.3s;
+    cursor: pointer;
+
+}
